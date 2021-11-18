@@ -1,0 +1,28 @@
+.aboutmain{
+    position: relative;
+    background: url(Aboutme.png) no-repeat;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.6)),url(Aboutme.png) no-repeat 60%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 2em;
+}
+.aboutmeheading{
+    font-size: 4em;
+    line-height: 78px;
+    font-family: 'Vidaloka', serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+.aboutme{
+    width: 900px;
+    padding: 3rem;
+    padding-left: 8rem;
+    margin: 1em;
+    margin-top: 6em;
+}
+.aboutmetext{
+    color: #8B8B8B;   
+    font-size: 20px;
+}
