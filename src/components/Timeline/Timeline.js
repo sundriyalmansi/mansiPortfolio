@@ -18,7 +18,7 @@ const Timeline = () => {
                 {timelineElements.map((element) => {
                 return (
                     <VerticalTimelineElement
-                    key={element.key}
+                    key={element.id}
                     date={element.date}
                     dateClassName="date"
                     iconStyle={ workIconStyles }
