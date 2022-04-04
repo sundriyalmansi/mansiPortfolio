@@ -1,9 +1,26 @@
+.parallax {
+    /* background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../../Images/skills3.jpg) no-repeat center; */
+    background: linear-gradient(rgba(0,0,0,.99),rgba(0,0,0,.6)),url(/src/Images/code&coffee.jpeg) no-repeat 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    /* justify-content: center; */
+}
+
+@media only screen and (max-width: 767.98px) {
+    .parallax{
+        background-attachment: unset;
+    }
+}
+
+.margintop{
+    margin-top: 5em;
+    height: 2em;
+}
 .Skills-tech{
     text-align: left;
 }
-.skillsSection{
-    padding: 6em;
-}
+
 .educationTitle{
     color: #eee;
     padding: 0.5em 0.0em 0.2em;
@@ -63,9 +80,15 @@
     margin-bottom: 5px;
 }
 .skillsSection{
-    background: linear-gradient(rgba(0,0,0,.99),rgba(0,0,0,.6)),url(/src/Images/code&coffee.jpeg) no-repeat 50%;
+    /* background: linear-gradient(rgba(0,0,0,.99),rgba(0,0,0,.6)),url(/src/Images/code&coffee.jpeg) no-repeat 50%;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    padding: 5em;
+    padding-top: 6em; */
+}
+
+.paddingTop{
+    width: 100%;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
 }

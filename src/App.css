@@ -57,15 +57,14 @@ html {
 body{
   font-family: "Josefin Sans",sans-serif;
 }
-.logoimg{
-  width: 5em;
-}
+
 .menuitem{
   justify-content: flex-end;
 }
 .header-wraper{
   position: relative;
-  background: url(bgmp.png) no-repeat;
+  background: linear-gradient( rgba(228, 228, 228, 0.9), rgba(223, 222, 222, 0.9)), url(/src/Images/bgideas.jpeg) no-repeat;
+ 
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -80,7 +79,6 @@ body{
   z-index: 1;
 }
 .vertical-center {
-  /* margin: 0; */
   margin-left: 4rem;
   position: absolute;
   top: 50%;
@@ -95,7 +93,7 @@ body{
   cursor: pointer;
   z-index: 4;
   font-size: 22px;
-  color: #ffffff;
+  color: #1e1e1e;
   text-decoration: none;
 }
 .linksocial a:hover{
@@ -103,15 +101,16 @@ body{
   cursor: pointer;
   z-index: 4;
   font-size: 22px;
-  color: #ffffff;
+  color: #1e1e1e;
   text-decoration: none;
 }
 .breadcrumb{
   z-index: 4;
+  font-size: 22px;
 }
 .typed-text{
-  font-size: 80px;
-  color: #ffffff;
+  font-size: 5rem;
+  color: #1e1e1e;
   font-family: 'Vidaloka', serif;
   font-style: normal;
   font-weight: normal;
@@ -122,9 +121,9 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
 }
 .endtext{
-  color: #AFAFAF;
+  color: #1e1e1e;
   font-size: 30px;
-  font-weight: 200;
+  font-weight: 300;
   margin-top: 2em;
   line-height: 38px;
   font-family: 'Mulish', sans-serif;
@@ -134,11 +133,11 @@ body{
   z-index: 2;
 }
 .downloadcv{
-  border: 1px solid #ffffff !important;
+  border: 1px solid #1e1e1e !important;
   text-transform: uppercase;
   border-radius: 0%;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: white !important;
+  color: #1e1e1e !important;
   width: 160px;
   font-size: 18px;
   margin-top: 2rem;
@@ -151,6 +150,7 @@ body{
 .downloadcv:hover{
   background-color: #DD485C !important;
   border: 1px solid #DD485C !important;
+  color: #ffff;
 
 }
 .tsparticles-canvas-el {

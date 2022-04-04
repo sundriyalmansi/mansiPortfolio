@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="container">
                 <div className="contact">
                     <div className="row">
-                    <h2 className="title">Get In Touch</h2>
+                        <h2 className="title">Get In Touch</h2>
                     </div>
                     <div className="row contactItems">
                         <div className="col-md-4">

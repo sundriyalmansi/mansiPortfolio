@@ -1,6 +1,7 @@
 .div-experience{
   background-color: #131414;
   padding-bottom: 6rem;
+  font-family: 'Vidaloka', serif !important;
 }
 
 .title-exp {
@@ -40,7 +41,7 @@
   }
   .vertical-timeline-element-subtitle {
     padding-top: 10px;
-    color: #DD485C;
+    color: #C49B66;
   }
   @media only screen and (max-width: 1169.98px) {
     .iconImg{
@@ -55,7 +56,7 @@
     .vertical-timeline-element-subtitle {
       padding-top: 10px;
       font-size: 1.1rem;
-      color: #DD485C;
+      color: #C49B66;
     }
   }
   

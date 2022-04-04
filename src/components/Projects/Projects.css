@@ -7,13 +7,11 @@
     font-family: 'Vidaloka', serif;
 }
 .div-width{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 9%;
+    margin-right: 9%;
     padding-bottom: 2rem;
 }
-.mb-4{
-    margin-bottom: 1.5rem!important;
-}
+
 .flip_card_container{
     margin: 10px;
     height: 100%;
@@ -21,9 +19,13 @@
 .card-title{
     color: #c49b66;
     padding-top: 1rem;
+    font-family: 'Vidaloka', serif;
 }
 .card-text{
     margin-top: 1rem;
+}
+.frontface h6 {
+    margin-top: 1em;
 }
 .card-text {
     border-radius: 5px;

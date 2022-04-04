@@ -1,5 +1,5 @@
 .contactsection {
-    background-color: #131414;
+    background: linear-gradient(rgba(0,0,0,.89),rgba(0,0,0,.4)),url(/src/Images/bgideas.jpeg) no-repeat 50%;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 6rem;
