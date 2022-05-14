@@ -63,8 +63,7 @@ body{
 }
 .header-wraper{
   position: relative;
-  background: linear-gradient( rgba(228, 228, 228, 0.9), rgba(223, 222, 222, 0.9)), url(/src/Images/bgideas.jpeg) no-repeat;
- 
+  background-image: url(/src/Images/bgideas3.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -129,14 +128,14 @@ body{
   font-family: 'Mulish', sans-serif;
 }
 .dark-theme{
-  background-color: black !important;
+  background-color: #D9D4DB !important;
   z-index: 2;
 }
 .downloadcv{
   border: 1px solid #1e1e1e !important;
   text-transform: uppercase;
   border-radius: 0%;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  padding: 1rem 1rem 1rem 1rem;
   color: #1e1e1e !important;
   width: 160px;
   font-size: 18px;
@@ -150,7 +149,7 @@ body{
 .downloadcv:hover{
   background-color: #DD485C !important;
   border: 1px solid #DD485C !important;
-  color: #ffff;
+  color: #ffff !important;
 
 }
 .tsparticles-canvas-el {
