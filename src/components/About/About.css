@@ -25,3 +25,14 @@
     color: #8B8B8B;   
     font-size: 20px;
 }
+.subTitle{
+    color: #ffffff;
+}
+.title{
+    display: inline-block;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    position: relative;
+    color: #fff;
+    font-family: 'Vidaloka', serif;
+}

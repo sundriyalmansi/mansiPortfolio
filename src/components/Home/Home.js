@@ -128,7 +128,7 @@ const Header = () => {
                 <h2 className="endtext">Hi! I am Mansi <img src="https://img.icons8.com/emoji/24/000000/waving-hand-emoji.png"/></h2>
                 <div>
                     <Typed className="typed-text"
-                    strings={["UX Designer.", "Front-End Developer."]}
+                    strings={["UX Designer.", "UI Developer."]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop 

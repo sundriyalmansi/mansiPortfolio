@@ -1,68 +1,100 @@
 import React from 'react';
 import './Projects.css';
+import logo from './MVProjimg.png';
+import ddm from './ddm.png';
+import redesign from './redesign.png';
+
 
 const Projects = () => {
     return (
-        <div className="projectmain" id="Projects">
+        <div id="Projects">
             <hr className="hr-border"></hr>
             <h1 className="projectTitle">Latest Projects</h1>
-            <div className="row div-width">
-                <div className="col-6 mb-4">
-                    <div className="card flip_card_container">
-                        <div className="card-body flip_card">
-                            <div className="frontface">
-                                <h5 className="card-title"> CommonPaths, GIS Application for King County</h5>
-                                <h6> DXC Technologies, New Orleans</h6>
-                                <p className="card-text">JavaScript, Node.js, Pug, Express.js</p>
-                                <ul>
-                                    <li> As Lead UX Designer responsible for entire user-friendly interface.</li> 
-                                    <li> Conducted design thinking sessions, user interviews and created interactive prototypes</li>
-                                    <li> Designed wireframes for 40 screens for desktop and tablet devices.</li>
-                                    <li> Developed functional responsive UI components </li>
-                                </ul>
-                            </div>
-                        </div>
+            <div className='container projectscontainer'>
+                <div className='project-card-left'>
+                    <div className='image'>
+                        <img src={logo} className='projimg'
+                        alt="header-image"/>
                     </div>
-                </div>
-                <div className="col-6 mb-4">
-                    <div className="card flip_card_container">
-                        <div className="card-body flip_card">
-                            <div className="front face">
-                                <h5 className="card-title"> Demand Decision Management, DXC Corporate App </h5>
-                                <h6> DXC Technologies, New Orleans</h6>
-                                <p className="card-text">Vue.js, Azure ChatBot, Bootstrap, Node.js  </p>
-                                <ul>
-                                    <li> Designed Wireframes & mockups for fully responsive web application including chatbot design. </li> 
-                                    <li> Craeted ease to use interface whcih reduced user time by 30%. </li> 
-                                    <li> Developed modular componentsi with HTML5, CSS3, JavaScript and Bootstrap.</li>
+                    <h3 className='left-h2'>CommonPaths, GIS Application for Transportation Company</h3>
+                    <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
+                    <p className='p-text'>
+                        <ul>
+                            <li>Synthesized user insights into feasible design decisions, deployed a MVP within 6 months.</li>
+                            <li> As Lead UX Designer responsible for entire user-friendly interface.</li> 
+                            <li> Designed wireframes for 40 screens for desktop and tablet devices.</li>
+                            <li> Developed functional responsive UI components </li>
+                        </ul>
+                    </p>
+                    <div className='card-footer-btn'>
+                        <a href='https://www.figma.com/proto/PJ3loLlD1bcbBsWqn9ecJf/MV-Design-Case-Study?page-id=0%3A1&node-id=2%3A3&viewport=241%2C48%2C0.71&scaling=scale-down-width' className='firstbtn'>Read case study</a>
+                    </div>
 
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div className="col-6 mb-4">
-                    <div className="card flip_card_container">
-                        <div className="card-body flip_card">
-                            <div className="frontface">
-                                <h5 className="card-title"> Health Care Application </h5>
-                                <h6> DXC Technologies, New Orleans</h6>
-                                <p className="card-text">Figma, Miro, Invison, High-Fidelity Interactive Prototyping</p>
-                                <ul>
-                                    <li> Redesiging web application that provides intelligent clinical decision support.</li> 
-                                    <li> Created Style tiles and design thinking sessions to gather user requirements.</li>
-                                    <li> Designed wireframes , conducted design thinking sessions, user interviews and interactive prototypes.</li>
-                                    <li> Designed for Accessisilibility, WCAG Compliant by following WCAG 2.0 and WCAG 2.1 A & AA.</li>
-                                </ul>
-                            </div>
-                        </div>
+                <div className='project-card-left'>
+                    <div className='image'>
+                        <img src={ddm} className='projimg'
+                        alt="header-image"/>
                     </div>
-                </div>
- 
+                    <h3 className='left-h2'>Demand Decision Management, DXC Corporate App</h3>
+                    <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
+                    <p className='p-text'>
+                    <ul>
+                    <li>Designed application to streamline resourcing pipeline process for higher leadership of DXC generating in $1M of profit each quarter.</li>
+                        <li> Designed Wireframes & mockups for fully responsive web application </li> 
+                        <li> Craeted ease to use interface whcih reduced user time by 30%. </li> 
+                        <li> Developed modular componentsi with HTML5, CSS3, JavaScript and Bootstrap.</li>
+                    </ul>
+                    </p>
+                    <div className='card-footer-btn'>
+                        {/* <a href='#' className='firstbtn'>Read case study</a> */}
 
+                    </div>
+
+                </div>
+                <div className='project-card-left'>
+                    <div className='image'>
+                        <img src={redesign} className='projimg'
+                        alt="header-image"/>
+                    </div>
+                    <h2 className='left-h2'>Health Care Application Redesign</h2>
+                    <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
+                    <p className='p-text'>
+                    <ul>
+                        <li>Improved end-to-end experience of Guardian Life Insurance Internal Platform by conducting usability reviews, identifying UX issues and proposing design recommendations.</li>
+                        <li>Redesigned the portal to provide customized user experience to health care professionals with advanced features.</li>
+                        <li> Redesiging web application that provides intelligent clinical decision support.</li> 
+                        <li> Created Style tiles and design thinking sessions to gather user requirements.</li>
+                        <li> Designed for Accessisilibility, WCAG Compliant by following WCAG 2.0 and WCAG 2.1 A & AA.</li>
+                    </ul>
+                    </p>
+                    <div className='card-footer-btn'>
+                        <a href='#' className='firstbtn'>Read case study</a>
+                    </div>
+
+                </div>
+                <div className='project-card-left'>
+                    <div className='image'>
+                        <img src="https://i.postimg.cc/Kzzx26yz/Image-2x.jpg" className='projimg'
+                        alt="header-image"/>
+                    </div>
+                    <h2 className='left-h2'>Electronic Platform for Cancer</h2>
+                    <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
+                    <p className='p-text'>
+                        <ul>
+                            <li> Evaluated current branding and company details to create new style guides and present alternative style tiles. </li>
+                            <li> Improved end-to-end experience of Guardian Life Insurance Internal Platform by conducting usability reviews, identifying UX issues and proposing design recommendations.</li>
+                            <li> Redesigned the portal to provide customized user experience to health care professionals with advanced features. </li>
+                            <li>Design for Accessibility and following WCAG 2.O and WCAG 2.1 accessibility guidelines for making the web app accessible for all types of users. </li>
+                        </ul>
+                    </p>
+                    <div className='card-footer-btn'>
+                        <a href='#' className='firstbtn'>Read case study</a>
+                    </div>
+
+                </div>
 
             </div>
-            
         </div>
     )
 }
