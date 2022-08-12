@@ -33,7 +33,7 @@ const Header = () => {
                   }
                 },
                 "color": {
-                  "value": ["#BD10E0","#B8E986","#50E3C2","#FFD300","#E86363"]
+                  "value": ["#D9D9D9","#D9D9D9","D9D9D9","#D9D9D9","#D9D9D9"]
                 },
                 "shape": {
                   "type": "circle",
@@ -125,7 +125,7 @@ const Header = () => {
               }
         }} />
             <div className="main-info vertical-center">
-                <h2 className="endtext">Hi! I am Mansi <img src="https://img.icons8.com/emoji/24/000000/waving-hand-emoji.png"/></h2>
+                <h1 className="endtext">Hi! I am Mansi <img src="https://img.icons8.com/emoji/24/000000/waving-hand-emoji.png"/></h1>
                 <div>
                     <Typed className="typed-text"
                     strings={["UX Designer.", "UI Developer."]}

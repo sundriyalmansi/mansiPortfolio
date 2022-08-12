@@ -68,9 +68,9 @@ const Projects = () => {
                         <li> Designed for Accessisilibility, WCAG Compliant by following WCAG 2.0 and WCAG 2.1 A & AA.</li>
                     </ul>
                     </p>
-                    <div className='card-footer-btn'>
+                    {/* <div className='card-footer-btn'>
                         <a href='#' className='firstbtn'>Read case study</a>
-                    </div>
+                    </div> */}
 
                 </div>
                 <div className='project-card-left'>
@@ -88,9 +88,9 @@ const Projects = () => {
                             <li>Design for Accessibility and following WCAG 2.O and WCAG 2.1 accessibility guidelines for making the web app accessible for all types of users. </li>
                         </ul>
                     </p>
-                    <div className='card-footer-btn'>
+                    {/* <div className='card-footer-btn'>
                         <a href='#' className='firstbtn'>Read case study</a>
-                    </div>
+                    </div> */}
 
                 </div>
 

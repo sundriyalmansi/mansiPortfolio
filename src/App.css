@@ -63,7 +63,8 @@ body{
 }
 .header-wraper{
   position: relative;
-  background-image: url(/src/Images/bgideas3.jpg);
+  background-color: #fff;
+  /* background-image: url(/src/Images/bgideas3.jpg); */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -121,7 +122,7 @@ body{
 }
 .endtext{
   color: #1e1e1e;
-  font-size: 30px;
+  font-size: 2.7em;
   font-weight: 300;
   margin-top: 2em;
   line-height: 38px;

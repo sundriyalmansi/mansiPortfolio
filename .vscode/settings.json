@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/93d25e0d-df5e-4fd8-a160-f63913b134cb/microsoft.web/sites/subscriptions/93d25e0d-df5e-4fd8-a160-f63913b134cb/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/MansiSundriyalPortfolio",
+    "appService.deploySubpath": "."
+}
