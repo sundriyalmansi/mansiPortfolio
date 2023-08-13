@@ -17,7 +17,7 @@ const Navbar = () => {
                         <a className="nav-link" href="#homepage">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#Projects">Work</a>
+                        <a className="nav-link" href="#work">Work</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#skillspage">Skills</a>

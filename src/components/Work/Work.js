@@ -1,23 +1,17 @@
 import React from 'react';
-import './Projects.css';
-import logo from './MVProjimg.png';
-import ddm from './ddm.png';
-import redesign from './redesign.png';
+import './work.css';
 
-
-const Projects = () => {
+const Work = () => {
     return (
-        <div id="Projects">
-            {/* <div>
+        <div className="skillsSection" id="work">
+            <div className="margintop"></div>
             <hr className="hr-border"></hr>
-            <h1 className="projectTitle">Latest Projects</h1>
-            </div> */}
-            
+            <h1 className="projectTitle">Projects</h1>
             <div className='container projectscontainer'>
                 <div className='project-card-left'>
                     <div className='image'>
-                        <img src={logo} className='projimg'
-                        alt="header-image"/>
+                        {/* <img src={logo} className='projimg'
+                        alt="header-image"/> */}
                     </div>
                     <h3 className='left-h2'>CommonPaths, GIS Application for Transportation Company</h3>
                     <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
@@ -36,8 +30,8 @@ const Projects = () => {
                 </div>
                 <div className='project-card-left'>
                     <div className='image'>
-                        <img src={ddm} className='projimg'
-                        alt="header-image"/>
+                        {/* <img src={ddm} className='projimg'
+                        alt="header-image"/> */}
                     </div>
                     <h3 className='left-h2'>Demand Decision Management, DXC Corporate App</h3>
                     <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
@@ -57,8 +51,8 @@ const Projects = () => {
                 </div>
                 <div className='project-card-left'>
                     <div className='image'>
-                        <img src={redesign} className='projimg'
-                        alt="header-image"/>
+                        {/* <img src={redesign} className='projimg'
+                        alt="header-image"/> */}
                     </div>
                     <h2 className='left-h2'>Health Care Application Redesign</h2>
                     <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
@@ -94,12 +88,12 @@ const Projects = () => {
                     {/* <div className='card-footer-btn'>
                         <a href='#' className='firstbtn'>Read case study</a>
                     </div> */}
-
                 </div>
-
             </div>
         </div>
+        
     )
+    
 }
 
-export default Projects;
+export default Work;
