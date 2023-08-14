@@ -5,7 +5,6 @@ import Header from "./components/Home/Home";
 
 import Skills from "./components/Skills/Skills";
 import Timeline from "./components/Timeline/Timeline";
-import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Work from "./components/Work/Work";
